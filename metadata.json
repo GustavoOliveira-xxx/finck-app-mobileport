@@ -1,0 +1,6 @@
+{
+  "name": "Financial CK - Controle Financeiro",
+  "description": "Gerenciador financeiro pessoal completo baseado no Finck com fluxo de caixa, metas financeiras, relatórios, análises e gamificação por XP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
