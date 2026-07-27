@@ -85,7 +85,7 @@ export const AuthScreen: React.FC<AuthScreenProps> = ({
         <div className="flex flex-col items-center text-center mb-6">
           <div className="relative w-44 h-44 sm:w-48 sm:h-48 rounded-2xl bg-[#1c1626] p-2 shadow-2xl shadow-[#680c90]/50 border-2 border-[#fec800]/60 mb-4 overflow-hidden flex items-center justify-center shrink-0">
             <img
-              src="/logo.png"
+              src={`${import.meta.env.BASE_URL}logo.png`}
               alt="Financial CK Logo"
               className="w-full h-full object-contain"
               referrerPolicy="no-referrer"
