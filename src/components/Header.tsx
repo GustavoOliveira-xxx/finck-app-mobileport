@@ -13,7 +13,7 @@ export const Header: React.FC<HeaderProps> = ({ subtitulo, badge, onSair }) => {
       <div className="flex items-center gap-3">
         <div className="w-12 h-12 rounded-xl bg-[#1c1626] border border-[#fec800]/50 flex items-center justify-center shadow-lg shadow-[#680c90]/30 overflow-hidden p-0.5 shrink-0">
           <img
-            src="/logo.png"
+           src={`${import.meta.env.BASE_URL}logo.png`}
             alt="Financial CK Logo"
             className="w-full h-full object-contain"
             referrerPolicy="no-referrer"
